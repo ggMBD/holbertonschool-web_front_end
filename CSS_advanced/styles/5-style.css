@@ -22,9 +22,6 @@ html {
 body ,a{
     color: var(--text-color);
     font-family: var(--font-family-base);
-}
-
-body {
     font-size: medium;
 }
 
