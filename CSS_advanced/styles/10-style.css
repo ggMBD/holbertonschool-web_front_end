@@ -45,7 +45,7 @@ a {
     display: none;
 }
 
-section-header {
+.section-header {
     text-align: var(--section-header-align);
 }
 
