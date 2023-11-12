@@ -40,7 +40,7 @@
     --nav-item-font-size: var(--font-size-medium);
     --nav-item-letter-spacing: 4%;
     --nav-item-display: inline-block;
-    --nav-item-margin: calc(3 * var(--font-size-medium)) 0 0 0;
+    --nav-item-margin: 0 0 calc(3 * var(--font-size-medium)) 0;
     --nav-item-link-hover: var(--color-primary);
 
 }
@@ -130,10 +130,6 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: var(--font-weight-bold);
 }
 
-.footer {
-    padding: var(--footer-padding);
-}
-
 .navbar-menu {
     float: right;
 }
@@ -145,7 +141,7 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
 }
 
-.nav-item {
+.nav .nav-item {
     font-family: var(--nav-item-font-family);
     font-weight: var(--nav-item-font-weight);
     font-size: var(--nav-item-font-size);
@@ -154,11 +150,15 @@ h1, h2, h3, h4, h5, h6 {
     margin: var(--nav-item-margin);
 }
 
-.nav-link {
+.nav .nav-link {
     display: block;
-    padding: var(--font-size-medium) var(--font-size-medium) calc(var(--font-size-medium) / 2) calc(var(--font-size-medium) / 2);
+    padding: 0.5rem 1rem;
 }
 
 .nav .nav-link:hover {
     color: var(--nav-item-link-hover);
+}
+
+.footer {
+    padding: var(--footer-padding);
 }
