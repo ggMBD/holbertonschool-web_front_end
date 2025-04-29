@@ -1,0 +1,12 @@
+//Margin mixin
+@mixin margin-lr($ml: 0, $mr: 0){
+    margin-left: $ml;
+    margin-right: $mr;
+}
+body {
+    @include margin-lr(10px, 10px);
+}
+
+div{
+    @include margin-lr(15px, 15px);
+}
