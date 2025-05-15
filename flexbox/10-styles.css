@@ -356,6 +356,7 @@
 
   .section-hero .section-category {
     color: var(--color-white);
+    text-transform: uppercase;
   }
   .hero-homepage {
     background-position: 75% 0;
