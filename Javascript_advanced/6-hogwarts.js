@@ -20,7 +20,7 @@ class studentHogwarts {
     }
 
     getScore(){
-        return this.#name + ": " + this.#privateScore;
+        return `${this.#name}: ${this.#privateScore}`;
     }
 }
 
@@ -30,7 +30,7 @@ harry.rewardStudent();
 harry.rewardStudent();
 harry.rewardStudent();
 harry.rewardStudent();
-console.log(harry.getScore())
+console.log(harry.getScore());
 
 const draco = new studentHogwarts();
 draco.setName("Draco");
@@ -38,4 +38,4 @@ draco.rewardStudent();
 draco.penalizeStudent();
 draco.penalizeStudent();
 draco.penalizeStudent();
-console.log(draco.getScore())
+console.log(draco.getScore());
