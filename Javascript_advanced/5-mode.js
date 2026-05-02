@@ -20,17 +20,17 @@ function main() {
     const spookyBtn = document.createElement('button');
     spookyBtn.textContent = 'Spooky';
     document.body.appendChild(spookyBtn);
-    spookyBtn.onclick = function() {spooky();};
+    spookyBtn.onclick = spooky;
 
     const darkModeBtn = document.createElement('button');
     darkModeBtn.textContent = 'Dark mode';
     document.body.appendChild(darkModeBtn);
-    darkModeBtn.onclick = function() {darkMode();};
+    darkModeBtn.onclick = darkMode;
 
     const screamModeBtn = document.createElement('button');
     screamModeBtn.textContent = 'Scream mode';
     document.body.appendChild(screamModeBtn);
-    screamModeBtn.onclick = function() {screamMode();};
+    screamModeBtn.onclick = screamMode;
 
 }
 main();
