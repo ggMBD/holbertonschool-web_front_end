@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+    <head>
+
+        <meta charset="utf-8" />
+        <title>Task 0</title>
+        <script src="https://code.jquery.com/jquery-4.0.0.slim.min.js" integrity="sha256-8DGpv13HIm+5iDNWw1XqxgFB4mj+yOKFNb+tHBZOowc=" crossorigin="anonymous"></script>
+        <script type="application/javascript">
+            function createFamilyTree(){
+                $("body").append(
+                    $("<table>").append(
+                        $("<thead>").append(
+                            $("<tr>").append(
+                                $("<th>").text("Firstname"),
+                                $("<th>").text("Lastname"),
+                            )
+                        ),
+                        $("<tbody>")
+                    )
+                );
+            };
+
+            function addNewMember(firstName, lastName){
+                let x = $("<td>").text("(x)").css("background-color", "orange");
+                $("table tbody").append(
+                    $("<tr>").append(
+                        $("<td>").text(firstName),
+                        $("<td>").text(lastName),
+                        $("<td>").text("(x)")
+                            .css("background-color", "orange")
+                            .click(function() {
+                                $(this).parent().remove();
+                            })
+                    )
+                );
+            };
+            $(function() {createFamilyTree(); });
+            $(function(){
+                addNewMember("Guillaume", "Salva");
+                addNewMember("Arielle","Snizt");
+                addNewMember("Fanette","Snizt");
+                addNewMember("Gerard","Snizt");
+                addNewMember("Victor","Salva");
+            });
+        </script>
+    </head>
+
+    <body>
+
+    </body>
+
+</html>
