@@ -26,11 +26,6 @@
       "id": 5
     },
     {
-      "title": "build you future",
-      "author": "Holberton school",
-      "id": 6
-    },
-    {
       "title": "i need to rest",
       "author": "samir",
       "id": 7
@@ -41,14 +36,19 @@
       "id": 8
     },
     {
-      "title": "post test n° 1",
-      "author": "dev",
-      "id": 9
-    },
-    {
       "title": "post test n° 747",
       "author": "dev",
       "id": 10
+    },
+    {
+      "author": "maouia",
+      "title": "why the comment is deleted ??????\n",
+      "id": 11
+    },
+    {
+      "author": "dev",
+      "title": "is this still work",
+      "id": 12
     }
   ],
   "comments": [
