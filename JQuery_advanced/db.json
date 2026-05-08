@@ -1,0 +1,64 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "title": "do you need coffe",
+      "author": "barista",
+      "id": 2
+    },
+    {
+      "title": "do you need food",
+      "author": "mom",
+      "id": 3
+    },
+    {
+      "title": "give me cigarette",
+      "author": "brother",
+      "id": 4
+    },
+    {
+      "title": "code for fun",
+      "author": "no body",
+      "id": 5
+    },
+    {
+      "title": "build you future",
+      "author": "Holberton school",
+      "id": 6
+    },
+    {
+      "title": "i need to rest",
+      "author": "samir",
+      "id": 7
+    },
+    {
+      "title": "anything you need",
+      "author": "who am i ??",
+      "id": 8
+    },
+    {
+      "title": "post test n° 1",
+      "author": "dev",
+      "id": 9
+    },
+    {
+      "title": "post test n° 747",
+      "author": "dev",
+      "id": 10
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
